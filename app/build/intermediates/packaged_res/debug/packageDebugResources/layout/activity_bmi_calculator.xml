@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/fitsnapbg"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bmi_calculator"
+                android:textSize="30sp"
+                android:textColor="@color/primaryColor"
+                android:layout_marginBottom="16dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/heightInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/height_in_cm"
+                android:inputType="numberDecimal"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/weightInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/weight_in_kg"
+                android:inputType="numberDecimal"
+                android:layout_marginTop="8dp"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/calculatebmiButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/calculate_bmi"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="@android:color/holo_purple"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/bmiResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="10dp"
+                android:textColor="@color/textDark"
+                android:textSize="20sp"
+                android:gravity="center"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/primaryColor"
+                android:layout_marginVertical="8dp" />
+
+            <LinearLayout
+                android:layout_width="353dp"
+                android:layout_height="241dp"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bmi_card_bg"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="@string/bmi_categories"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:shrinkColumns="1"
+                    android:stretchColumns="1">
+
+                    <TableRow>
+
+                        <TextView
+                            android:background="@drawable/cell_border"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="@string/bmi_category"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:background="@drawable/cell_border"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="@string/bmi_range"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:background="@drawable/cell_border"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="@string/underweight" />
+
+                        <TextView
+                            android:background="@drawable/cell_border"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="@string/below_18_5" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:background="@drawable/cell_border"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="@string/healthy" />
+
+                        <TextView
+                            android:background="@drawable/cell_border"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="@string/_18_5_24_9" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:background="@drawable/cell_border"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="@string/overweight" />
+
+                        <TextView
+                            android:background="@drawable/cell_border"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="@string/_25_0_29_9" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:background="@drawable/cell_border"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="@string/obese" />
+
+                        <TextView
+                            android:background="@drawable/cell_border"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="@string/_30_0_and_above" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/viewHistoryButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="View History"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="@android:color/holo_blue_light"
+                android:textSize="18sp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+com.example.fitsnapviva.test.app-core-1.7.0-0 /Users/krahul/.gradle/caches/8.13/transforms/26a71a43747e29993f6c7a11ab4889ba/transformed/core-1.7.0/res
+com.example.fitsnapviva.test.app-tracing-1.2.0-1 /Users/krahul/.gradle/caches/8.13/transforms/67d295615a09f72d09b449b7e81f93ee/transformed/tracing-1.2.0/res
+com.example.fitsnapviva.test.app-androidTest-2 /Users/krahul/AndroidStudio/FitsnapViva/app/build/generated/res/resValues/androidTest/debug
+com.example.fitsnapviva.test.app-updated_navigation_xml-3 /Users/krahul/AndroidStudio/FitsnapViva/app/build/generated/updated_navigation_xml/debugAndroidTest
+com.example.fitsnapviva.test.app-mergeDebugAndroidTestResources-4 /Users/krahul/AndroidStudio/FitsnapViva/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.fitsnapviva.test.app-mergeDebugAndroidTestResources-5 /Users/krahul/AndroidStudio/FitsnapViva/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.fitsnapviva.test.app-debugAndroidTest-6 /Users/krahul/AndroidStudio/FitsnapViva/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

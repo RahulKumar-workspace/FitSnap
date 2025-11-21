@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sex_options">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <color name="accentColor">#F39C12</color>
+    <color name="backgroundColor">#ECF0F1</color>
+    <color name="black">#FF000000</color>
+    <color name="blue">#459DE4</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="fitsnapbg">#FEF8DD</color>
+    <color name="primaryColor">#2C3E50</color>
+    <color name="red">#FF0000</color>
+    <color name="textDark">#000000</color>
+    <color name="textLight">#FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="_18_5_24_9">18.5 – 24.9</string>
+    <string name="_25_0_29_9">25.0 – 29.9</string>
+    <string name="_30_0_and_above">30.0 and above</string>
+    <string name="app_name">FitsnapViva</string>
+    <string name="below_18_5">Below 18.5</string>
+    <string name="bmi">BMI</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="bmi_categories">BMI CATEGORIES</string>
+    <string name="bmi_category">BMI Category</string>
+    <string name="bmi_range">BMI Range</string>
+    <string name="calculate_bmi">Calculate BMI</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_register">Click to Register</string>
+    <string name="client_id">1038701313051-mp2s4r1atihg0amon5b7h4simo569n6d.apps.googleusercontent.com</string>
+    <string name="email">Email</string>
+    <string name="fitsnap">Fitsnap</string>
+    <string name="gcm_defaultSenderId" translatable="false">871838922525</string>
+    <string name="google_api_key" translatable="false">AIzaSyBw7tZ9pNHdoZrFMz0aECA9_ELzLdYJ_Ws</string>
+    <string name="google_app_id" translatable="false">1:871838922525:android:df02c40416e91b750b13f4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBw7tZ9pNHdoZrFMz0aECA9_ELzLdYJ_Ws</string>
+    <string name="google_storage_bucket" translatable="false">fitsnapvava3.firebasestorage.app</string>
+    <string name="healthy">Healthy</string>
+    <string name="height_in_cm">Height (in cm)</string>
+    <string name="login">Login</string>
+    <string name="login_to_account">Login to Account</string>
+    <string name="logout">Logout</string>
+    <string name="obese">Obese</string>
+    <string name="overweight">Overweight</string>
+    <string name="password">Password</string>
+    <string name="project_id" translatable="false">fitsnapvava3</string>
+    <string name="register">Register</string>
+    <string name="underweight">Underweight</string>
+    <string name="weight_in_kg">Weight (in kg)</string>
+    <style name="Base.Theme.FitsnapViva" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+    <style name="Theme.FitsnapViva" parent="Base.Theme.FitsnapViva"/>
+</resources>
